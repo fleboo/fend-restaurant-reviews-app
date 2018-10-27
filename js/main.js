@@ -160,10 +160,11 @@ createRestaurantHTML = (restaurant) => {
 
   const image = document.createElement('img');
   image.className = 'restaurant-img';
+  image.alt = `${restaurant.name} restaurant marketing picture`; 
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
   li.append(image);
 
-  const name = document.createElement('h1');
+  const name = document.createElement('h2');
   name.innerHTML = restaurant.name;
   li.append(name);
 
@@ -175,9 +176,13 @@ createRestaurantHTML = (restaurant) => {
   address.innerHTML = restaurant.address;
   li.append(address);
 
-  const more = document.createElement('a');
+  const more = document.createElement('button');
   more.innerHTML = 'View Details';
-  more.href = DBHelper.urlForRestaurant(restaurant);
+  more.setAttribute('tabindex', '1');
+  // more.href = DBHelper.urlForRestaurant(restaurant);
+  more.onclick = () => {
+    window.location = DBHelper.urlForRestaurant(restaurant);
+  }
   li.append(more)
 
   return li
