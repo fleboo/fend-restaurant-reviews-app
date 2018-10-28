@@ -1,4 +1,4 @@
-// Thanks to Travesy Media service worker tutorials
+// Thanks to Travesy Media service worker youtube.com tutorials
 
 const staticCacheName = 'restaurant-app-v1';
 
