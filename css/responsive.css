@@ -1,0 +1,66 @@
+@media screen and (max-width: 499px) {
+  .restaurant-title h1 a{
+    font-size: 12pt;
+    letter-spacing: 4px;
+  }
+
+  #breadcrumb li {
+    font-size: 9pt;
+  }
+
+  #reviews-container {
+    padding: 30px 10px 50px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #breadcrumb li {
+    font-size: 8pt;
+  }
+}
+ 
+@media only screen and (max-device-width: 767px) and (min-device-width: 580px) {
+  #restaurants-list {
+    justify-content: space-around;
+    /* border: 2px solid blue; */
+  }
+
+  #restaurants-list li {
+    flex-basis: 40%;
+  }
+
+  #restaurant-name {
+    font-size: 17pt;
+  }
+
+  #reviews-container h2 {
+    font-size: 20pt;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #restaurants-list {
+    justify-content: space-around;
+  }
+
+  #restaurants-list li {
+    flex-basis: 30%;
+  }
+
+  #maincontent {
+    max-width: 950px;
+    margin: 0 auto;
+  }
+
+  #restaurant-name {
+    font-size: 20pt;
+  }
+
+  #restaurant-address {
+    font-size: 15pt;
+  }
+
+  #reviews-container h2 {
+    font-size: 24pt;
+  }
+} 
