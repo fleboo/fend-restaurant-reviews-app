@@ -292,11 +292,11 @@ section #map-container {
   flex-direction: column;
 }
 
-#restaurant-container > h1, img, p, table {
+#restaurant-container > h2, img, p, table {
   margin: 0 auto;
 }
 
-#restaurant-container h1 {
+#restaurant-container h2 {
   margin-bottom: 4px;
 }
 
