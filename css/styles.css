@@ -63,7 +63,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   text-align:center;
 }
 
-.restaurant-title nav {
+.restaurant-title h1 {
   padding-top: 20px;
 }
 
@@ -79,15 +79,15 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   text-transform: uppercase;
 }
 
-#breadcrumb {
-    padding: 6px 8px 10px;
-    list-style: none;
-    background-color: #eee;
-    font-size: 17px;
-    margin: 0;
-    /* width: calc(50% - 80px); */
-    display: flex;
-    width: 50%;
+#breadcrumb ul {
+  padding: 6px 8px 10px;
+  list-style: none;
+  background-color: #eee;
+  font-size: 17px;
+  margin: 0;
+  /* width: calc(50% - 80px); */
+  display: flex;
+  width: 50%;
 }
 
 /* Add a slash symbol (/) before/behind each list item */
