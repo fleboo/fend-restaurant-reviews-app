@@ -127,7 +127,7 @@ fillRestaurantHoursHTML = (operatingHours = self.restaurant.operating_hours) => 
  */
 fillReviewsHTML = (reviews = self.restaurant.reviews) => {
   const container = document.getElementById('reviews-container');
-  const title = document.createElement('h2');
+  const title = document.createElement('h3');
   title.innerHTML = 'Reviews';
   container.appendChild(title);
   title.setAttribute('tabindex', '1'); //Add reviews to tab order
@@ -156,7 +156,7 @@ createReviewHTML = (review) => {
   li.appendChild(reviewHeader);
 
   
-  const name = document.createElement('h3');
+  const name = document.createElement('h4');
   name.innerHTML = review.name;
   name.setAttribute('tabindex', '2');
   reviewHeader.appendChild(name);
