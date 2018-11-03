@@ -48,7 +48,7 @@
   }
 
   #maincontent {
-    max-width: 950px;
+    max-width: 100%;
     margin: 0 auto;
   }
 
@@ -60,7 +60,14 @@
     font-size: 15pt;
   }
 
+  #reviews-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
   #reviews-container h2 {
     font-size: 24pt;
   }
+
+
 } 

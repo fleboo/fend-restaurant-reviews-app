@@ -49,13 +49,13 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   text-align: center;
   text-transform: uppercase;
 
-  max-width: 950px;
+  max-width: 100%;
   margin: 0 auto;
 }
 /* ====================== Navigation ====================== */
 .restaurant-title {
   width: 100%;
-  max-width: 950px;
+  max-width: 100%;
   margin: 0 auto;
 
   height: 80px;
